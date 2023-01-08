@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home"
 import CheckSelectedId from './Components/CheckSelectedId';
-import Fill_Details from "./Pages/Fill_Details"
+import FillDetails from "./Pages/fill_Details"
 import About from "./Pages/About"
 import MyResume from "./Pages/MyResumes"
 
@@ -19,10 +19,10 @@ function App() {
 
 
         {/* Fill-Details Page */}
-        <Route exact path="/template/fill_details"
+        <Route exact path="/template/FillDetails"
           element={
             <CheckSelectedId>
-              <Fill_Details />
+              < FillDetails />
             </CheckSelectedId>
           } />
 

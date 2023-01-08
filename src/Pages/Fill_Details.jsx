@@ -14,7 +14,7 @@ import PreviewComp from '../Components/PreviewComp';
 
 
 
-const Fill_Details = (props) => {
+const FillDetails = (props) => {
     const [tab, setTab] = useState(0);
     return (
         <div className="fillDetails">
@@ -36,4 +36,4 @@ const Fill_Details = (props) => {
         </div>
     )
 }
-export default Fill_Details
+export default FillDetails;

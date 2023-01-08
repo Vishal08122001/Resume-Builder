@@ -92,7 +92,7 @@ const PreviewComponent = (props) => {
                                 JSON.stringify(allNewResumes)
                             );
 
-                            window.reload();
+                            window.location.reload();
 
                             return;
                         }
@@ -138,7 +138,7 @@ const PreviewComponent = (props) => {
 
     const openModal = async () => {
         setModal(true)
-        console.log("called")
+
 
         setTimeout(() => {
             setModal(false)

@@ -15,7 +15,7 @@ const TemplateHeader = (props) => {
                         {props.personalInfo.profileImg.length > 0 ? (
                             <div className="template-image-comp">
                                 <img className='template-profile-img'
-                                    src={props.personalInfo.profileImg} alt="Profile-Image" />
+                                    src={props.personalInfo.profileImg} alt="Profile" />
                             </div>
                         ) : (
                             <div
