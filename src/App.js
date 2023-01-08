@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home"
+import CheckSelectedId from './Components/CheckSelectedId';
+import Fill_Details from "./Pages/Fill_Details"
+import About from "./Pages/About"
+import MyResume from "./Pages/MyResumes"
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        {/* Home Page */}
+        <Route exact path="/" element={<Home />} />
+
+
+        {/* Fill-Details Page */}
+        <Route exact path="/template/fill_details"
+          element={
+            <CheckSelectedId>
+              <Fill_Details />
+            </CheckSelectedId>
+          } />
+
+
+        {/* About Page */}
+        <Route exact path="/about" element={<About />} />
+        {/* My Resume Page */}
+        <Route exact path="/MyResume" element={<MyResume />} />
+
+      </Routes>
+    </Router>
+
+  )
 }
 
-export default App;
+export default App
+
