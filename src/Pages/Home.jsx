@@ -34,7 +34,7 @@ const Home = (props) => {
     const navigate = useNavigate();
     const navigateToFill = (id) => {
         props.setSelectedTemplateId(id);
-        navigate("/template/fill_details")
+        navigate("/template/FillDetails")
     }
     return (
         <>
