@@ -43,7 +43,7 @@ const initialEducationState = {
 };
 
 const initialSkillsState = {
-    skills: ["", "", ""],
+    skills: ["", "", "", ""],
 };
 
 export const selectedTemplateReducer = (
