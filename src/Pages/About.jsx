@@ -99,7 +99,7 @@ export default function About() {
                             fontWeight: "400",
                             color: "dark",
                         }}>
-                        Shareit with your friends
+                        Connect with us-
                     </Typography>
                     <Box className="icons">
                         <LinkedInIcon

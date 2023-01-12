@@ -36,5 +36,5 @@ export const data = {
     startYear: "2020",
     endYear: "2023",
   },
-  key_skills: ["MERN Stack", "Cloud", "SEO"],
+  key_skills: ["ABC", "ABC", "ABC"],
 };
