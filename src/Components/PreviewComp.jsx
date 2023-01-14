@@ -92,7 +92,7 @@ const PreviewComponent = (props) => {
                                 JSON.stringify(allNewResumes)
                             );
 
-                            window.open("https://resume-buildd.netlify.app/");
+                            window.location.reload();
 
                             return;
                         }
