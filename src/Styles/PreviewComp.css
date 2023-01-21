@@ -43,3 +43,18 @@
     display: flex;
     align-items: center;
 }
+
+
+@media screen and (max-width: 390px) {
+
+    .resume-save-container {
+        margin-top: 60vh;
+        margin-left: -95vw;
+    }
+
+    .resume-save-title {
+        width: 800px;
+    }
+
+
+}

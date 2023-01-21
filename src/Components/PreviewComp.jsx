@@ -105,7 +105,7 @@ const PreviewComponent = (props) => {
                             educationInfo: props.educationInfo,
                             skills: props.skills,
                         });
-
+                        // for saving the resume to locaal storage
                         window.localStorage.setItem("resumes", JSON.stringify(newResumes));
                     } else {
                         window.localStorage.setItem(
@@ -168,6 +168,8 @@ const PreviewComponent = (props) => {
                             return getTemplate(template, index);
                         })}
                     </div>
+
+
                     <div className="resume-preview-grid-item">
                         <div className="resume-save-container">
                             <h3 className="resume-save-title">Create File Name</h3>
@@ -181,7 +183,7 @@ const PreviewComponent = (props) => {
                                 error={error.length > 0 ? true : false}
                                 helperText={error}
                             />
-                            <div className="resume-back-next-container">
+                            <div className="resume-back-next-container"                            >
                                 <Button
                                     onClick={handleBack}
                                     className="outlined-btn"
