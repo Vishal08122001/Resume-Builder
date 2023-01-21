@@ -14,13 +14,13 @@ In the project We have below pages.
 
 
 
-### `Home Page`
+### `HOME Page`
 In Home Page you will see three preloaded templates from which 
 you can choose your favourite resume template.
 
 
 
-### `Details Filling Page`
+### `DETAILS FILLING Page`
 
 Once you choose your favourite template. Then you will be redirected to the fill details page.
 
@@ -30,7 +30,7 @@ There are some optional inputs also you can either fill them or leave them.
 
 
 
-### `Preview Page`
+### `PREVIEW Page`
 
 After filling all the details you will see the preview page where you can check the final preview of your resume. If there is any typing error you can go back the correct it. 
 
@@ -40,7 +40,7 @@ After clicking save Button you will be redirected to the Home Page.
 
 
 
-### `My Resume Page`
+### `MY RESUME Page`
 
 **This App will use your local storage to store your saved Resumes**
 
@@ -56,3 +56,5 @@ My resume page page stores all the resumes you have created and shows them. Each
 ### `ABOUT Page`
 
 About page contains some information about the benifits of this resume builder Application.
+
+About page contains some social media icon where the user can simply contact the developer of this web app.
