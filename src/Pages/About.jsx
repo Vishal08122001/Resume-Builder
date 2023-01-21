@@ -27,7 +27,7 @@ export default function About() {
         window.open("mailto:vc31142@gmail.com");
     }
     const gitHub = () => {
-        window.open("https://github.com/Vishal08122001")
+        window.open("https://github.com/Vishal08122001/Resume-Builder")
     }
 
     return (
@@ -68,16 +68,9 @@ export default function About() {
 
                             textAlign: "justify"
                         }}>
-                        You’ve just graduated and you’re ready to take on the world. But where do you start? The Job Search of
-                        course and that one document that can make or break your chances of Landing you your dream Job is your
-                        Resume, CV, and Cover Letter. Resume Builder provides you a plenty of resume template which you can use
-                        to create your resume.
-
-                        Take a peek at our database that contains Resume Templates. Pick an illustration that not only fits your
-                        personal taste but also illustrates the kind of work you would like to do in the future. Every one of
-                        these Resume Templates is produced in PDF format. We have a large number
-                        of ideas that are already in usable form. Utilize any one of our ready examples!
-
+                        A resume builder app is a software application that allows users to easily create, edit, and share professional resumes. These apps typically include a wide range of customizable templates, pre-written phrases and prompts, and tools for formatting, editing, and sharing resumes. <br />
+                        Some resume builder apps also include features such as the ability to import existing resumes, the ability to save resumes in multiple formats, and the ability to share resumes directly with potential employers. <br />
+                        Overall, a resume builder app can help users save time and effort when creating a resume, and can also help them create a more polished and professional-looking document.
 
                     </Typography>
                     <Stack>

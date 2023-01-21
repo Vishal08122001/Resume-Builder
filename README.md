@@ -1,7 +1,7 @@
 # Getting Started with Resume Builder
 
 ## Resume Builder :-
-This is a resume builder app which has been given by Almabetter for frontend capstone project. This resume builder has been made by Vishal Cohort fusion. In this web application the user need to input his/her details i.e, Personal Info, Work Experience, Education Details and Skills. After filling the details user can simply download the resume and tht resume will be saved in the local storage. The user can simpy edit, delete or download that saved resume from My Resume Page.
+A resume builder app is a tool that allows users to create, edit, and share professional resumes quickly and easily. The app typically includes a variety of templates and design options that can be customized to suit the user's needs, as well as features such as text editing, formatting, and the ability to import and export data. Some resume builder apps also include additional tools such as a cover letter builder, a portfolio creator, and the ability to track the progress of job applications. Overall, a resume builder app is an efficient and effective way to create a professional, polished resume that stands out to potential employers and helps users to secure job opportunities.
 
 You can simply go through this web appliction using this link :- https://resume-buildd.netlify.app
 
